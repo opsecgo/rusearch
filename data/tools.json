@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "name": "Sherlock",
+    "category": "SOCMINT",
+    "description_ru": "Sherlock — инструмент OSINT для поиска пользовательских аккаунтов по заданному никнейму на различных социальных сетях, форумах и интернет-платформах. Позволяет выявлять возможные профили, использующие одинаковое имя пользователя, и собирать результаты для дальнейшего анализа.",
+    "description_en": "Sherlock is an OSINT tool designed to find user accounts across various social networks, forums, and online platforms using a specified username. It helps identify potential profiles sharing the same username and collect results for further analysis.",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "platform": "Windows, Linux",
+    "image": "media/sherlock-logo.png",
+    "featured": true
+  }
+]
