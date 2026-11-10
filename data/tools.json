@@ -8,5 +8,15 @@
     "platform": "Windows, Linux",
     "image": "media/sherlock-logo.png",
     "featured": true
+  },
+  {
+    "name": "Maigret",
+    "category": "SOCMINT",
+    "description_ru": "Maigret — инструмент OSINT для поиска аккаунтов по никнейму на большом количестве интернет-платформ. Помимо обнаружения профилей, позволяет собирать доступную публичную информацию о найденных аккаунтах, помогая анализировать цифровой след и выявлять возможные связи между профилями.",
+    "description_en": "Maigret is an OSINT tool designed to search for user accounts across a wide range of online platforms using a username. In addition to identifying profiles, it can collect publicly available information about discovered accounts, helping analyze digital footprints and identify potential connections between profiles.",
+    "url": "https://github.com/soxoj/maigret",
+    "platform": "Windows, Linux, Web",
+    "image": "media/maigret.png",
+    "featured": true
   }
 ]
