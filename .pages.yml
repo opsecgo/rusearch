@@ -87,6 +87,50 @@ content:
         label: Regions — EN
         type: text
 
+  - name: tools
+    label: Инструментарий / Tools
+    type: file
+    path: data/tools.json
+    format: json
+    list: true
+    fields:
+      - name: name
+        label: Название программы
+        type: string
+        required: true
+      - name: category
+        label: Категория
+        type: select
+        options:
+          values:
+            - OSINT
+            - SOCMINT
+            - GEOINT
+            - WEB
+            - ANALYSIS
+            - PRIVACY
+            - OTHER
+      - name: description_ru
+        label: Описание — RU
+        type: text
+      - name: description_en
+        label: Description — EN
+        type: text
+      - name: url
+        label: Ссылка на программу / сайт
+        type: string
+        required: true
+      - name: platform
+        label: Платформы (например Windows, Linux, Web)
+        type: string
+      - name: image
+        label: Логотип / изображение
+        type: image
+      - name: featured
+        label: Выделить в каталоге
+        type: boolean
+
 settings:
   content:
     merge: true
+
