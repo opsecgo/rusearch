@@ -18,5 +18,15 @@
     "platform": "Windows, Linux, Web",
     "image": "media/maigret.png",
     "featured": true
+  },
+  {
+    "name": "Whiteboard",
+    "category": "ANALYSIS",
+    "description_ru": "Whiteboard — специализированная онлайн-доска для визуализации и организации OSINT-расследований. Позволяет собирать информацию об объектах исследования в виде карточек, устанавливать связи между ними, проверять данные (телефоны, электронную почту, никнеймы, IP-адреса и домены), а также анализировать полученные сведения. Поддерживает совместную работу команды в реальном времени, AI-помощника, 3D-граф связей и экспорт результатов.",
+    "description_en": "Whiteboard is a specialized online workspace for visualizing and organizing OSINT investigations. It allows users to collect information about research subjects in cards, establish connections between them, verify data such as phone numbers, email addresses, usernames, IP addresses, and domains, and analyze collected information. It supports real-time team collaboration, an AI assistant, 3D relationship graphs, and data export.",
+    "url": "https://whiteboard.beer",
+    "platform": "Web",
+    "image": "media/Untitled-3.png",
+    "featured": true
   }
 ]
