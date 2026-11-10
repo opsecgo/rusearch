@@ -1,0 +1,92 @@
+media:
+  input: media
+  output: media
+
+content:
+  - name: projects
+    label: Исследования / Case studies
+    type: file
+    path: data/projects.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        label: URL slug (latin, unique)
+        type: string
+        required: true
+      - name: title_ru
+        label: Название — русский
+        type: string
+        required: true
+      - name: title_en
+        label: Title — English
+        type: string
+        required: true
+      - name: category
+        label: Категория
+        type: select
+        options:
+          values:
+            - OSINT
+            - SOCMINT
+            - ANALYSIS
+            - DIGITAL
+      - name: date
+        label: Дата
+        type: date
+      - name: summary_ru
+        label: Краткое описание — RU
+        type: text
+      - name: summary_en
+        label: Short summary — EN
+        type: text
+      - name: image
+        label: Обложка
+        type: image
+      - name: image_alt
+        label: Image description
+        type: string
+      - name: featured
+        label: Показывать на главной
+        type: boolean
+      - name: body_ru
+        label: Текст исследования — RU
+        type: rich-text
+      - name: body_en
+        label: Research content — EN
+        type: rich-text
+      - name: fictional
+        label: Демонстрационный / fictional
+        type: boolean
+
+  - name: profile
+    label: Профиль и контакты
+    type: file
+    path: data/profile.json
+    format: json
+    fields:
+      - name: brand
+        label: Название бренда
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: telegram
+        label: Telegram username (without @)
+        type: string
+      - name: biography_ru
+        label: Биография — RU
+        type: text
+      - name: biography_en
+        label: Biography — EN
+        type: text
+      - name: location_ru
+        label: География — RU
+        type: text
+      - name: location_en
+        label: Regions — EN
+        type: text
+
+settings:
+  content:
+    merge: true
