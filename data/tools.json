@@ -28,5 +28,15 @@
     "platform": "Web",
     "image": "media/Untitled-3.png",
     "featured": true
+  },
+  {
+    "name": "Spiderfoot",
+    "category": "OSINT",
+    "description_ru": "SpiderFoot — инструмент с открытым исходным кодом для автоматизации OSINT-исследований и сбора информации из открытых источников.\n\nПрограмма объединяет более 200 модулей, позволяющих получать и анализировать сведения о доменах, IP-адресах, DNS-записях, сетевой инфраструктуре, электронных адресах, публичных аккаунтах и других цифровых объектах.",
+    "description_en": "SpiderFoot is an open-source OSINT automation tool designed to collect, analyze, and correlate information from publicly available sources.\n\nIt features more than 200 modules that gather data related to domains, IP addresses, DNS records, network infrastructure, email addresses, public accounts, and other digital entities.",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "platform": "Linux, Windows, macOS, Docker, Web Interface, CLI",
+    "image": "media/1687345-3301311007.png",
+    "featured": true
   }
 ]
